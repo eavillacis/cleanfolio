@@ -8,11 +8,13 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Esteban Villacis',
   role: 'Fullstack Software Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  description: `I am a Consultant Developer with 7+ years of experience building web solutions, APIs, software
+    architectures and infrastructure following best practices and agile principles.
+    I consider myself a technology geek, always willing to learn new technologies and good development
+    practices.`,
+  resume: 'https://www.linkedin.com/in/eavillacis/',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/eavillacis/',
     github: 'https://github.com/eavillacis',
   },
 }
@@ -21,36 +23,31 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Clubmiles',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Loyalty ecosystem for well known Ecuadorian credit card company',
+    stack: ['Golang', 'K8S', 'React'],
+    livePreview: 'https://www.clubmiles.com',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Virtual Comics App (POC)',
+    description: 'Ecommerce catalog serverless POC',
+    stack: ['SASS', 'React', 'AWS'],
+    sourceCode: 'https://github.com/eavillacis/virtual-comics-app',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    name: 'Marvy Real State',
+    description: 'Real state POC',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    livePreview: 'https://marvy.tech',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Golang',
+  'Python',
   'JavaScript',
   'TypeScript',
   'React',
@@ -60,7 +57,7 @@ const skills = [
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
+  'QA',
 ]
 
 const contact = {
