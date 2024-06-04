@@ -25,21 +25,21 @@ const projects = [
   {
     name: 'Clubmiles',
     description:
-      'Loyalty ecosystem for well known Ecuadorian credit card company',
+      'Loyalty ecosystem backend and microservices',
     stack: ['Golang', 'K8S', 'React'],
-    livePreview: 'https://www.clubmiles.com',
+    livePreview: 'https://www.clubmiles.com.ec',
   },
   {
-    name: 'Virtual Comics App (POC)',
-    description: 'Ecommerce catalog serverless POC',
-    stack: ['SASS', 'React', 'AWS'],
-    sourceCode: 'https://github.com/eavillacis/virtual-comics-app',
+    name: 'Pichincha Miles',
+    description: 'Loyalty ecosystem and frontend',
+    stack: ['Golang', 'K8S', 'React', 'AWS'],
+    livePreview: 'https://www.pichinchamiles.com',
   },
   {
-    name: 'Marvy Real State',
-    description: 'Real state POC',
-    stack: ['SASS', 'TypeScript', 'React'],
-    livePreview: 'https://marvy.tech',
+    name: 'Kriptos',
+    description: 'Backend cloud services',
+    stack: ['Golang', 'Serverless'],
+    livePreview: 'https://www.kriptos.io',
   },
 ]
 
@@ -47,16 +47,15 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'Golang',
+  'Cloud',
+  'Serverless',
   'Python',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
   'CI/CD',
-  'Jest',
+  'Testing',
   'QA',
 ]
 
